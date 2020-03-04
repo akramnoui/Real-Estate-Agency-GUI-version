@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ImmoEsi/ImmoEsi.iml" filepath="$PROJECT_DIR$/ImmoEsi/ImmoEsi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testJavaFX2.0.iml" filepath="$PROJECT_DIR$/testJavaFX2.0.iml" />
+    </modules>
+  </component>
+</project>

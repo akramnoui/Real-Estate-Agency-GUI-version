@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="605.0" prefWidth="746.0" style="-fx-background-color: #0B243B;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="47.0" layoutY="66.0" prefHeight="474.0" prefWidth="658.0" style="-fx-background-color: #084B8A;" />
+      <HBox layoutX="97.60000000000002" layoutY="99.0" prefHeight="169.0" prefWidth="559.0" spacing="150.0" AnchorPane.rightAnchor="89.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#GotoAjouterBien" prefHeight="165.0" prefWidth="217.0" style="-fx-background-color: #EFF8FB;" text="Ajouter un Bien" textFill="#090d11">
+               <graphic>
+                  <ImageView fitHeight="75.0" fitWidth="74.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/add-button.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Gotham Medium" size="13.0" />
+               </font></Button>
+            <Button mnemonicParsing="false" prefHeight="167.0" prefWidth="202.0" style="-fx-background-color: #EFF8FB;" text="Modifier un Bien">
+               <graphic>
+                  <ImageView fitHeight="79.0" fitWidth="73.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/pencil.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Gotham Medium" size="11.0" />
+               </font></Button>
+         </children>
+      </HBox>
+      <HBox layoutX="98.0" layoutY="325.0" prefHeight="210.0" prefWidth="588.0" spacing="150.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="154.0" prefWidth="206.0" style="-fx-background-color: #EFF8FB;" text="Supprimer un Bien" textFill="#0e0e0e">
+               <graphic>
+                  <ImageView fitHeight="69.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/delete-button.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Gotham Medium" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="154.0" prefWidth="208.0" style="-fx-background-color: #EFF8FB;" text="Archiver un Bien">
+               <graphic>
+                  <ImageView fitHeight="74.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/delete-file.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <font>
+                  <Font name="Gotham Medium" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
